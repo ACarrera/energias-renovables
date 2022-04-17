@@ -1,0 +1,133 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 10vh;
+}
+.main{
+   box-sizing: border-box;
+}
+.fs-7{
+    font-size: 13px;
+}
+footer{
+    height: 10vh;
+}
+
+/* *Configuracion de la galeria de imagenes(altura y que la imagen ocupe todo su contenedor)*/
+
+.panels-1, .panels-2, .panels-3, .panels-4,.hidroelectrica-1, .hidroelectrica-2,
+.hidroelectrica-3,.hidroelectrica-4,.wind-farm-1,.wind-farm-2,.wind-farm-3,.wind-farm-4{
+    background-size: cover;
+    height: 250px;
+}
+/** Imagenes de la galeria*/
+
+.panels-1{
+    background-image: url(../assets/img/panels-1.jpg);    
+}
+.panels-2{
+    background-image: url(../assets/img/panels-2.jpg);   
+}
+.panels-3{
+    background-image: url(../assets/img/panels-3.jpg);    
+}
+.panels-4{
+    background-image: url(../assets/img/panels-4.jpg);    
+}
+.hidroelectrica-1{
+    background-image: url(../assets/img/hidroelectrica.jpg);
+}.hidroelectrica-2{
+    background-image: url(../assets/img/hidroelectrica-1.jpg);   
+}
+.hidroelectrica-3{
+    background-image: url(../assets/img/hidroelectrica-2.jpg);   
+}
+.hidroelectrica-4{
+    background-image: url(../assets/img/hidroelectrica-4.jpg);   
+}
+.wind-farm-1{
+    background-image: url(../assets/img/windfarm.jpg);
+}.wind-farm-2{
+    background-image: url(../assets/img/windfarm-2.jpg);   
+}
+.wind-farm-3{
+    background-image: url(../assets/img/windfarm-3.jpg);   
+}
+.wind-farm-4{
+    background-image: url(../assets/img/windfarm-4.jpg);   
+}
+
+/* Centrado de los componentes de pagina error404*/
+
+.error{
+    height: 60vh;
+    transform: translateY(50%);
+}
+.text-justify{
+    text-align: justify;
+}
+/** configuracion de acerca de nosotros*/
+
+.angel,.gonzalo,.roberto,.victor{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size:cover;
+}
+.angel{
+    background-image: url(../assets/img/angel.jpg);
+}
+.gonzalo{
+    background-image: url(../assets/img/Gonza.png);
+}
+.roberto{
+    background-image: url(../assets/img/Roberto.jpg);
+}
+.victor{
+    background-image: url(../assets/img/victor.jpg);
+}
+
+/**logo*/
+
+.logo{
+    background-image: url(../assets/img/logo.jpg);
+    width: 50px;
+    height: 50px;    
+    border-radius: 50%;
+    background-size: cover;
+}
+.logo-footer{
+    background-image: url(../assets/img/logo.jpg);
+    width: 100px;
+    height: 100px;    
+    border-radius: 50%;
+    background-size: cover;
+}
+
+/**Mapa de ubicacion*/
+
+.map{
+    width:100% ;
+    height: 50%;    
+    background-size: cover;
+}
+
+.mapContact{
+    width: 100% ;
+    height: 40vh;    
+}
+.tag:hover{
+    background: #198754;
+    color: white;
+}
+.pressed:hover{
+    color:white !important;
+}
+.imgnormalizada img {
+   background-size: cover;
+    height: 225px;
+    
+  }

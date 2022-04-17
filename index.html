@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Angel Carrera , Gonzalo Argüello , Victor Vargas, Roberto Poliche">
+    <meta name="description" content="Energias renovables desarrolladas hasta el momento y una breve descripcion de ellas">
+    <meta name="keywords" content="Energías renovables,solar,eolica,hidroelectrica">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" href="assets/img/Favicon.ico">
+    <title>Energías Renovables</title>
+</head>
+
+<body>
+    <header class="header">
+        <!--* navbar con los requerimientos pedidos en el proyecto-->
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-success p-3 ">
+            <div class="container-fluid">
+              <div class="logo"></div>
+                <a class="navbar-brand" href="index.html">Energías Renovables</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!--* Menu que se colapsa al hacerse responsive-->
+
+                <div class="collapse navbar-collapse" id="navbarNav"> 
+                    <ul class="navbar-nav ms-auto mb-2 text-end mb-lg-0">
+                        <li class="nav-item">
+                            <a class="btn text-light" href="galeria.html" role="button">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn text-light" href="Acerca-de-nosotros.html" role="button">Acerca de Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn text-light" href="contacto.html" role="button">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn text-light" href="suscripcion.html" role="button">Suscribirse</a>
+                        </li>                        
+                        <li class="nav-item">
+                            <button class="btn btn-outline-warning "><a class="text-warning pressed" href="/login.html">Log In</a></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>        
+    </header>
+    <main>
+        <!--Carrusel de imagenes-->
+        <div>
+         <div class="container-fluid  h-25 p-0">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#imagenes-carrusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#imagenes-carrusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#imagenes-carrusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item imgnormalizada active">                    
+                    <img src="assets/img/work-panels.jpg" class="d-block w-100 " alt="Trabajadores sobre paneles solares">
+                  </div>
+                  <div class="carousel-item imgnormalizada">
+                    <img src="assets/img/wind-collector.jpg" class="d-block w-100 " alt="Generador de un parque eolico en un lugar montañoso">
+                  </div>
+                  <div class="carousel-item imgnormalizada">
+                    <img src="assets/img/panels-4.jpg" class="d-block w-100 " alt="paneles solares y generador eolico en zona nevada">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div> 
+  </div>         
+      <section>                           
+            <hr>
+
+            <!--*Entrada 1-->
+
+             <div class="container">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 pb-2 ">
+                  <div class="text-center">
+                      <img src="assets/img/parque-eolico-4.jpg" alt="Parque Eólico" class="w-100">
+                 
+                <h3 class="mb-4 text-center">Energía Eólica</h3>
+                <p class="mt-3 text-justify mx-auto">
+                  ¿Qué es la energía eólica? La energía eólica es la energía que se obtiene del viento.
+                   Se trata de un tipo de energía cinética producida por el efecto de las corrientes de aire.
+                    Esta energía la podemos convertir en electricidad a través
+                    de un generador eléctrico. 
+                    Es una energía renovable, limpia, que no contamina y que ayuda a reemplazar la energía producida a través de los combustibles fósiles. <br>
+                    <div class="button-see-more text-end"><a class="btn btn-warning  text-success" href="energia-eolica.html" role="button">Ver Mas..</a></div></p>
+                  </div> 
+                  </div>
+
+                  <!--*Form de busqueda y listado de categorias-->
+
+                <div class="col-12 col-sm-6 col-lg-6 pb-2 text-center">
+                    <div>
+                      <form class="d-flex align-items-center">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                  <br><br>
+                  <div class="justify-content-center text-center ">
+                    <ul class="list-group list-group-horizontal-lg text-center">
+                      <a href="energia-eolica.html" class="text-decoration-none text-dark tag"><li class="list-group-item flex-fill tag">Eolica</li></a>
+                      <a href="energia-solar.html" class="text-decoration-none text-dark tag"><li class="list-group-item flex-fill tag">Solar</li></a>
+                      <a href="energia-hidroelectrica.html" class="text-decoration-none text-dark tag"><li class="list-group-item flex-fill tag">Hidroelectrica</li></a>
+                  </ul>
+                  <ul class="list-group list-group-horizontal-lg text-center">
+                    <a href="error404.html" class="text-decoration-none text-dark tag"><li class="list-group-item flex-fill tag">Biomasa</li></a>
+                    <a href="error404.html" class="text-decoration-none text-dark tag"><li class="list-group-item flex-fill tag">Geotermica</li></a>
+                    <a href="error404.html" class="text-decoration-none text-dark tag"><li class="list-group-item flex-fill tag">Mareomotriz</li></a>
+                  </ul>
+                  </div>
+                </div>
+                    <br><br>
+                    <!--* publicidad que desaparece al ser visto en celular-->
+                    <div class="d-none d-sm-block col-lg-6 pb-2 pt-3 w-100">                  
+                       <img src="assets/img/publicidad-1.jpg" alt="publicidad-1" class="w-100">
+                    </div> 
+                </div>  
+                  </div> 
+                    <!--*Fin de la Publicidad-->                   
+                   
+                   
+                 <!--*Entrada 2-->
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-sm-6 col-lg-6 pb-2 ">
+                  <div class="text-center">
+                      <img src="assets/img/solar-farm.jpg" alt="Granja de paneles solares" class="w-100">
+                  </div>
+                <h3 class="mb-4 text-center">Energía Solar</h3>
+                <p class="mt-3 text-justify mx-auto">La energía solar es la producida por la luz (energía fotovoltaica)
+                   o el calor del sol para la generación de electricidad o la producción de calor.
+                   Renovable, pues procede del sol, se obtiene por medio de paneles. Es una energia limpia
+                    y que permite su utilizacion en lugares que otras fuentes de energia serian dificiles
+                     de obtener o costear. <br>
+                     <div class="button-see-more text-end"><a class="btn btn-warning  text-success " href="energia-solar.html" role="button">Ver Mas..</a></div></p>
+                </div>
+              
+                <!--*Pubicidad-2-->
+
+                <div class="d-none d-sm-block col-lg-6 pb-2 pt-5">                  
+                  <div>
+                    <img src="assets/img/publicidad-2.jpg" alt="publicidad-2" class="w-100 ">
+                  </div>
+                  </div>
+                </div> 
+                  <!--*Entrada 3-->
+                  <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-6 pb-2 ">
+                      <div class="text-center">
+                          <img src="assets/img/hidroelectrica.jpg" alt="Presa Hidroelectrica" class="w-100">
+                      </div>
+                    <h3 class="mb-4 text-center">Energía Hidroeléctrica</h3>
+                     <div class="mt-3 text-justify mx-auto">La energía hidroeléctrica es electricidad generada aprovechando la energía del agua en movimiento.
+                        La lluvia o el agua de deshielo, provenientes normalmente de colinas y montañas, crean arroyos y ríos que desembocan en el océano.
+                         La energía que generan esas corrientes de agua puede ser considerable, como sabe cualquiera que haya hecho descenso de rápidos. <br>
+                        <div class="button-see-more text-end"><a class="btn btn-warning  text-success " href="energia-hidroelectrica.html" role="button">Ver Mas..</a></div></p>
+                        
+                        <nav aria-label="navigation ">
+                          <ul class="pagination justify-content-center">
+                            <li class="page-item ">
+                              <a class="page-link text-success" href="#"  aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                              </a>
+                            </li>
+                            <li class="page-item"><a class="page-link text-success" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link text-success" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link text-success" href="#">3</a></li>
+                            <li class="page-item ">
+                              <a class="page-link text-success" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </nav>
+                      </div> 
+                      
+                  <div class="d-none d-sm-block col-lg-6 pb-1">
+                    <div>
+                      <img src="assets/img/publicidad-1.jpg" alt="publicidad-2" class="w-100">
+                    </div>
+                  </div>
+                  </div> 
+              </div>
+                               
+        </section>
+    </main>
+
+    <!--*Pie de pagina-->
+
+    <footer>
+      <div class="container-fluid bg-success text-light py-4">
+        <div class="row">
+          <div class="col-12 col-sm-4 col-lg-4 my-auto">
+            <div class="logo-footer text-center m-auto"></div>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-4 my-3">
+          <div ><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1022202999166!2d-65.20939048559013!3d-26.83670088316038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses!2suy!4v1648948436793!5m2!1ses!2suy" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 ms-auto my-auto">
+          <div class="row">
+            <div class="col-6 text-end">
+              <i class="fa-brands fa-facebook-square"></i> <br>
+              <i class="fa-brands fa-instagram-square"></i> <br>
+              <i class="fa-brands fa-twitter-square"></i>
+            </div>
+            <div class="col-6 text-justify">
+              <a href="https://www.facebook.com" target="_blank" class=" text-light mr-2">Facebook</a><br>
+              <a href="https://www.instagram.com" target="_blank" class="text-light mr-2">Instagram</a><br>
+              <a href="https://twitter.com/?lang=es" target="_blank" class=" text-light mr-2">Twitter</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9e54ced884.js"crossoring="anonymous"></script>
+  </body>
+</html>
